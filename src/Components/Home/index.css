@@ -1,0 +1,902 @@
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    margin: 40px 0;
+  }
+
+  .title {
+    color: #000;
+    text-align: center;
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+    font: 500 18px/156% Clash Display, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .subtitle {
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 18px;
+    width: 100%;
+    max-width: 455px;
+    font: 700 48px/48px Clash Display, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .subtitle {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+
+  .testimonial-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .testimonial-list {
+      max-width: 100%;
+    }
+  }
+
+  .testimonial-item {
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+  }
+
+  @media (max-width: 991px) {
+    .testimonial-item {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+
+  .testimonial-image-wrapper {
+    width: 62%;
+  }
+
+  @media (max-width: 991px) {
+    .testimonial-image-wrapper {
+      width: 100%;
+      margin-top: 30px;
+    }
+  }
+
+  .testimonial-image {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+  }
+
+  .testimonial-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .testimonial-content-wrapper {
+      width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .testimonial-title {
+    font: 28px Clash Display, sans-serif;
+  }
+
+  .testimonial-content {
+    font-family: Clash Display, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 32px;
+  }
+
+  .testimonial-author {
+    font-family: Clash Display, -apple-system, Roboto, Helvetica, sans-serif;
+    line-height: 156%;
+    margin-top: 32px;
+  }
+
+  @media (max-width: 991px) {
+    .testimonial-author {
+      max-width: 100%;
+    }
+  }
+
+
+
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+   
+  
+  .content-div {
+    width: 50%;
+    margin-left: 20px ;
+  }
+
+  @media (max-width: 991px) {
+    .content-container {
+      width: 100% ;
+    }
+  }
+
+  .header {
+    padding: 0 20px ;
+    margin-top: 40px ;
+  }
+
+  
+
+
+
+
+
+  @media (max-width: 991px) {
+    .main-container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0px;
+    }
+  }
+  .image-section {
+    width: 50%;
+  }
+  @media (max-width: 991px) {
+    .image-section {
+      width: 100%;
+    }
+    .main-img {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .main-img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  .content-section {
+    width: 50%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .content-section {
+      width: 100%;
+    }
+    .content-header {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+    .content-title {
+      font-size: 40px;
+    }
+  }
+  .content-header {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 156%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 0px;
+    padding: 0 20px ;
+    margin-top: 40px ;
+  }
+  .content-features {
+    color: #f55;
+    font-family: "Clash Display", -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+  }
+  .content-title {
+    margin-top: 19px;
+    font: 700 48px/100% "Clash Display", -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  .feature-item {
+    display: flex;
+    
+    margin-top: 39px;
+    gap: 8px;
+    font-weight: 600;
+  }
+  .feature-img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 24px;
+  }
+  .feature-label {
+    font-family: "Clash Display", -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  .feature-description {
+    font-family: "Clash Display", -apple-system, Roboto, Helvetica, sans-serif;
+    line-height: 28px;
+    margin-top: 22px;
+    align-items: start;
+  }
+
+
+
+
+
+
+
+  .container {
+    padding: 20px;
+  }
+  .content {
+    display: flex;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  .text-section,
+  .image-section {
+    width: 50%;
+  }
+  @media (max-width: 991px) {
+    .text-section,
+    .image-section {
+      width: 100%;
+    }
+  }
+  .text-section {
+    padding: 0 20px;
+  }
+  @media (max-width: 991px) {
+    .text-section {
+      margin-top: 40px;
+    }
+  }
+  .sub-header {
+    color: #f55;
+    font-family: "Clash Display", -apple-system, Roboto, Helvetica, sans-serif;
+    line-height: 156%;
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+  }
+  @media (max-width: 991px) {
+    .sub-header {
+      max-width: 100%;
+    }
+  }
+  .main-header {
+    margin-top: 18px;
+    font: 700 48px "Clash Display", -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .main-header {
+      font-size: 40px;
+      max-width: 100%;
+    }
+  }
+  .advantage-item {
+    display: flex;
+    margin-top: 32px;
+    gap: 15px;
+    align-items: center;
+  }
+  .icon {
+    width: 48px;
+    height: 48px;
+  }
+  .title {
+    font: 600 28px "Clash Display", -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  .description {
+    line-height: 28px;
+    margin-top: 15px;
+    font-family: "Clash Display", -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  .main-image {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+  @media (max-width: 991px) {
+    .main-image {
+      margin-top: 40px;
+    }
+  }
+
+
+
+/*faq*/
+
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .title {
+    color: #F55;
+font-family: "Clash Display";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+letter-spacing: 2.88px;
+text-transform: uppercase;
+align-items: start;
+  }
+  @media (max-width: 991px) {
+    .title {
+      max-width: 100%;
+    }
+  }
+  .subtitle {
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 17px;
+    width: 100%;
+    font: 700 48px/48px Clash Display, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .subtitle {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+  .dark {
+      color: #fff;
+    }
+    .light {
+        color: #000;
+    }
+    .left-align {
+        text-align: justify;
+    }
+    .testimonial-card {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        line-height: normal;
+    }
+    .title {
+        font: 600 28px Clash Display, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    }
+    .description {
+        margin-top: 16px;
+        font: 500 18px Clash Display, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    } 
+    
+    .testimonials-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      width: 100%;
+      padding-left: 31px;
+    }
+    @media (max-width: 991px) {
+      .testimonials-container {
+        max-width: 100%;
+        padding-left: 20px;
+        margin-top: 40px;
+      }
+    }
+    
+  .fq-each-container{
+    width: 535px;
+    height: 181px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F55;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+  }
+  .fq-white-title{
+    color: #FFF;
+font-family: "Clash Display";
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 100% */
+text-transform: capitalize;
+  }
+
+  .fq-white-para{
+    color: #FFF;
+text-align: justify;
+font-family: "Clash Display";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+text-transform: capitalize;
+  }
+
+  .fq-black-title{
+    color: #000;
+font-family: "Clash Display";
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 100% */
+text-transform: capitalize;
+  }
+
+
+  .fq-black-para{
+    color: #000;
+  text-align: justify;
+font-family: "Clash Display";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+text-transform: capitalize;
+opacity: 0.5;
+
+  }
+.fq-each-white-container{
+    border-radius: 8px;
+    background: #FFF;
+    width: 535px;
+    height: 181px;
+    flex-shrink: 0;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.each-double-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+
+
+
+/*before footer*/
+
+.container-whole-black{
+  background-color: #000;
+  width: 1090px;
+height: 508px;
+display: flex;
+flex-direction: row;
+
+
+}
+
+.content-container {
+  display: flex;
+  max-width: 545px;
+  flex-direction: column;
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 0 20px;
+  
+}
+.heading {
+  width: 100%;
+  font: 700 48px/100% Clash Display, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .heading {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+.subheading {
+  font-family: Clash Display, -apple-system, Roboto, Helvetica,
+    sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 25px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .subheading {
+    max-width: 100%;
+  }
+}
+.cta-container {
+  border-radius: 4px;
+  background-color: #fff;
+  align-self: start;
+  display: flex;
+  margin-top: 21px;
+  gap: 14px;
+  color: #000;
+  font-weight: 500;
+  line-height: 156%;
+  padding: 15px 22px;
+}
+@media (max-width: 991px) {
+  .cta-container {
+    padding: 0 20px;
+  }
+}
+.cta-text {
+  font-family: Clash Display, -apple-system, Roboto, Helvetica,
+    sans-serif;
+  flex-grow: 1;
+  margin: auto 0;
+}
+.cta-img {
+  aspect-ratio: 0.84;
+  object-fit: auto;
+  object-position: center;
+  width: 26px;
+  fill: #000;
+}
+
+
+
+.image {
+  aspect-ratio: 1.28;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  max-width: 591px;
+}
+
+
+/*black*/
+
+
+.frame {
+  background-color: #000000;
+  border-radius: 8px;
+  height: 508px;
+  overflow: hidden;
+  width: 1090px;
+}
+
+.frame .overlap {
+  height: 1159px;
+  left: -328px;
+  position: relative;
+  top: -248px;
+  width: 1777px;
+}
+
+.frame .group {
+  height: 719px;
+  left: 0;
+  position: absolute;
+  top: 440px;
+  width: 719px;
+}
+
+.frame .overlap-group {
+  height: 719px;
+  position: relative;
+}
+
+.frame .ellipse {
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 190px/273.5px;
+  height: 547px;
+  left: 138px;
+  position: absolute;
+  top: 118px;
+  transform: rotate(-45deg);
+  width: 380px;
+}
+
+.frame .div {
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 190px/273.5px;
+  height: 547px;
+  left: 170px;
+  position: absolute;
+  top: 86px;
+  transform: rotate(-45deg);
+  width: 380px;
+}
+
+.frame .ellipse-2 {
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 190px/273.5px;
+  height: 547px;
+  left: 202px;
+  position: absolute;
+  top: 54px;
+  transform: rotate(-45deg);
+  width: 380px;
+}
+
+.frame .overlap-wrapper {
+  height: 719px;
+  left: 1058px;
+  position: absolute;
+  top: 0;
+  width: 719px;
+}
+
+.frame .group-wrapper {
+  height: 196px;
+  left: 405px;
+  position: absolute;
+  top: 404px;
+  width: 547px;
+}
+
+.frame .group-2 {
+  height: 196px;
+  position: relative;
+  width: 551px;
+}
+
+.frame .ready-to-get-started {
+  color: #ffffff;
+  font-family: "Clash Display-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 48px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.frame .risus-habitant-leo {
+  color: #ffffff;
+  font-family: "Clash Display-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 64px;
+  width: 536px;
+}
+
+.frame .div-wrapper {
+  background-color: #ffffff;
+  border-radius: 4px;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 136px;
+  width: 208px;
+}
+
+.frame .group-3 {
+  height: 32px;
+  left: 22px;
+  position: relative;
+  top: 14px;
+  width: 165px;
+}
+
+.frame .vector {
+  height: 32px;
+  left: 139px;
+  position: absolute;
+  top: 0;
+  width: 26px;
+}
+
+.frame .download-app-wrapper {
+  height: 28px;
+  /* left: 0; */
+  /* position: absolute; */
+  /* top: 2px; */
+  width: 129px;
+}
+
+.frame {
+  color: #000000;
+  font-family: "Clash Display-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  /* left: 0; */
+  letter-spacing: 0;
+  line-height: 28px;
+  /* position: absolute; */
+  /* top: 0; */
+  white-space: nowrap;
+  margin-top:10px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 100%;
+}
+
+.download-app{
+  color: #000000;
+  font-family: "Clash Display-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.frame .overlap-group-wrapper {
+  height: 223px;
+  left: 1096px;
+  position: absolute;
+  top: 419px;
+  transform: rotate(39.87deg);
+  width: 307px;
+}
+
+.frame .overlap-2 {
+  height: 223px;
+  position: relative;
+}
+
+.frame .ellipse-3 {
+  background-color: #fde598;
+  border-radius: 140.33px/74.04px;
+  filter: blur(103.15px);
+  height: 148px;
+  left: 0;
+  position: absolute;
+  top: 75px;
+  width: 281px;
+}
+
+.frame .ellipse-4 {
+  background-color: #ff5454;
+  border-radius: 137.43px/74.04px;
+  filter: blur(103.15px);
+  height: 148px;
+  left: 32px;
+  position: absolute;
+  top: 0;
+  width: 275px;
+}
+
+.frame .iphone-pro {
+  height: 460px;
+  left: 917px;
+  position: absolute;
+  top: 272px;
+  width: 591px;
+}
+
+.frame .overlap-3 {
+  height: 460px;
+  position: relative;
+}
+
+.frame .element {
+  height: 405px;
+  left: 365px;
+  position: absolute;
+  top: 0;
+  width: 226px;
+}
+
+.frame .mockup-wrapper {
+  background-image: url(./iphone-13-pro-max.png);
+  background-size: 100% 100%;
+  height: 405px;
+  position: relative;
+  width: 136px;
+}
+
+.frame .mockup {
+  height: 386px;
+  left: 7px;
+  position: absolute;
+  top: 10px;
+  width: 129px;
+}
+
+.frame .element-2 {
+  height: 444px;
+  left: 196px;
+  position: absolute;
+  top: 3px;
+  width: 395px;
+}
+
+.frame .overlap-4 {
+  height: 444px;
+  position: relative;
+  width: 305px;
+}
+
+.frame .shadow {
+  height: 402px;
+  left: 169px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  width: 136px;
+}
+
+.frame .iphone-pro-max {
+  height: 393px;
+  left: 0;
+  position: absolute;
+  top: 51px;
+  width: 235px;
+}
+
+.frame .img {
+  height: 371px;
+  left: 7px;
+  position: absolute;
+  top: 60px;
+  width: 209px;
+}
+
+.frame .shadow-2 {
+  height: 385px;
+  left: 196px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 54px;
+  width: 226px;
+}
+
+.frame .img-wrapper {
+  background-image: url(./iphone-13-pro-max-2.png);
+  background-size: 100% 100%;
+  height: 377px;
+  left: 0;
+  position: absolute;
+  top: 83px;
+  width: 298px;
+}
+
+.frame .mockup-2 {
+  height: 352px;
+  left: 7px;
+  position: absolute;
+  top: 7px;
+  width: 272px;
+}
+
+.frame .star {
+  height: 58px;
+  left: 979px;
+  position: absolute;
+  top: 282px;
+  width: 61px;
+}
+
+.frame .star-2 {
+  height: 45px;
+  left: 750px;
+  position: absolute;
+  top: 599px;
+  width: 45px;
+}
