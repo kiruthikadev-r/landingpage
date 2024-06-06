@@ -10,7 +10,10 @@ import screen3 from '/assets/Mockup3.png';
 import feature1 from '/assets/star-05.png';
 import feature2 from '/assets/cube-02.png';
 import feature3 from '/assets/cube-04.png';
-
+import bell from '/assets/belladvantage.png';
+import testimonial from '/assets/testimonial.png';
+import advantage from '/assets/advantage.png';
+import whiteStar from '/assets/white-star.png'
 
 
 
@@ -45,9 +48,25 @@ const TestimonialCard = ({ title, description, color, align}) => (
 
 const AdvantageItem = ({ imgSrc, title, description }) => (
   <div className="advantage-item">
-    <img loading="lazy" src={imgSrc} alt={title} className="icon" />
-    <div className="title">{title}</div>
+    <div>
+
+    <div className="advantage-adjust-flex">
+
+    <img loading="lazy" src={imgSrc} alt={title} className="icon-orange" />
+    <div className="title">{title}
+    </div>
+    </div>
+    <div>
     <p className="description">{description}</p>
+
+    </div>
+    
+    </div>
+
+    <div>
+      <img src={advantage}/>
+    </div>
+
   </div>
 );
 
@@ -79,11 +98,22 @@ const features = [
 
 const advantages = [
   {
-    imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/b77fcba72221c052587c2d858c174a36b319e95184592c88db6b475cfa54854d?apiKey=7e91cb269c0144af96e9f3d2d5576b41&",
+    imgSrc: bell,
     title: "clever notifications",
     description:
       "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.",
-  },
+    imageSrc: advantage,
+    },
+
+  {
+    imgSrc: feature1,
+    title: "clever notifications",
+    description:
+      "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.",
+    imageSrc: advantage,
+    },
+
+
 ];
 
 
@@ -93,11 +123,14 @@ const advantages = [
 function Home() {
   const testimonials = [
     {
-      imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/5f624580a765503cc309003513cf77b88aba67cc4ee373c8f2b936bde27c92f2?apiKey=7e91cb269c0144af96e9f3d2d5576b41&",
+      imageSrc: testimonial,
       title: "The best financial accounting app ever!",
       content: ` “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.” `,
       author: "Nick Jonas",
     },
+
+    
+
   ];
 
   
@@ -227,6 +260,7 @@ const testimonialsFrequently = [
                   imgSrc={item.imgSrc}
                   title={item.title}
                   description={item.description}
+
                 />
               ))}
             </div>
@@ -344,7 +378,7 @@ const testimonialsFrequently = [
             <div className="element">
               <div className="mockup-wrapper">
                 <img className="mockup" alt="i-phone-1" src={iphone3} />
-                <img className="mockup-2" alt="Mockup" src={screen3} />
+                
               </div>
             </div>
             <div className="element-2">
@@ -354,16 +388,16 @@ const testimonialsFrequently = [
                 <img className="img" alt="Mockup" src={screen2} />
               </div>
             </div>
-            <img className="shadow-2" alt="Shadow" src={"screen3"} />
+            
             <div className="img-wrapper">
             <img className="iphone-pro-max" alt="Iphone pro max" src={iphone1} />
-              <img className="mockup-2" alt="Mockup" src="{screen3} "/>
+              
             </div>
           </div>
         </div>
         
-        <img className="star" alt="Star" src="star-7.svg" />
-        <img className="star-2" alt="Star" src="star-6.svg" />
+        <img className="star" alt="Star" src={whiteStar} />
+        <img className="star-2" alt="Star" src={whiteStar} />
       </div>
     </div>
 

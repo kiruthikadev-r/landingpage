@@ -294,13 +294,22 @@
 }
 .advantage-item {
   display: flex;
+ 
   margin-top: 32px;
   gap: 15px;
   align-items: center;
 }
-.icon {
+
+.advantage-adjust-flex{
+  display: flex; 
+  gap: 15px;
+}
+
+.icon-orange {
   width: 48px;
   height: 48px;
+  
+  border-radius: 50%;
 }
 .title {
   font: 600 28px "Clash Display", -apple-system, Roboto, Helvetica, sans-serif;
