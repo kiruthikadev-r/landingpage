@@ -1,5 +1,5 @@
 import * as React from "react";
-import websiteLogo from '../../assets/Frame.png';
+import websiteLogo from '/assets/Frame.png';
 import "./index.css";
 
 const menuItems = ["home", "about us", "pricing", "features"];

@@ -1,12 +1,17 @@
 import * as React from "react";
 import Navbar  from "../Navbar";
 import Footer from '../Footer';
-import iphone1 from '../../assets/iPhone-13-Pro-Max.png';
-import iphone2 from '../../assets/iPhone-13-Pro-Max0.png';
-import iphone3 from '../../assets/iPhone-13-Pro-Max2.png';
-import screen1 from '../../assets/Screen1.png';
-import screen2 from '../../assets/Screen3.png';
-import screen3 from '../../assets/Mockup3.png';
+import iphone1 from '/assets/iPhone-13-Pro-Max.png';
+import iphone2 from '/assets/iPhone-13-Pro-Max0.png';
+import iphone3 from '/assets/iPhone-13-Pro-Max2.png';
+import screen1 from '/assets/Screen1.png';
+import screen2 from '/assets/Screen3.png';
+import screen3 from '/assets/Mockup3.png';
+import feature1 from '/assets/star-05.png';
+import feature2 from '/assets/cube-02.png';
+import feature3 from '/assets/cube-04.png';
+
+
 
 
 import "./index.css";
@@ -48,21 +53,21 @@ const AdvantageItem = ({ imgSrc, title, description }) => (
 
 const features = [
   {
-    imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/70593ba7dc16eab7690e8cb678c060453c15fd151151a6f1dc9dab3b02ffe880?apiKey=7e91cb269c0144af96e9f3d2d5576b41&",
+    imgSrc: feature1,
     altText: "Budgeting intervals",
     label: "Budgeting intervals",
     description:
       "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
   },
   {
-    imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d28fa344de921596a75e2c610f36450e9379fdee6371ee191f787fa340379bfe?apiKey=7e91cb269c0144af96e9f3d2d5576b41&",
+    imgSrc: feature2,
     altText: "Budgeting intervals",
     label: "Budgeting intervals",
     description:
       "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
   },
   {
-    imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/3522776b2568496c6e5efe46183a4788db97ebf8c24a3dab4b1a72b0059463a0?apiKey=7e91cb269c0144af96e9f3d2d5576b41&",
+    imgSrc: feature3,
     altText: "Budgeting intervals",
     label: "Budgeting intervals",
     description:
@@ -171,7 +176,9 @@ const testimonialsFrequently = [
 
 
   return (
-    <div>
+    
+    <>
+    <div className="app-main-container">
       <Navbar/>
 
 
@@ -224,14 +231,6 @@ const testimonialsFrequently = [
               ))}
             </div>
           </div>
-          <aside className="image-div">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/4a044043-9a25-4e9d-b85c-e1f297f1fc2a?apiKey=7e91cb269c0144af96e9f3d2d5576b41&"
-              className="main-image"
-              alt="Uifry features"
-            />
-          </aside>
         </div>
       </div>
 
@@ -298,34 +297,6 @@ const testimonialsFrequently = [
 
 
 
-      {/* <div className="container-whole-black">
-      <div className="content-container">
-
-        <h2 className="heading">Ready to get started?</h2>
-        <p className="subheading">
-          Risus habitant leo egestas mauris diam eget morbi tempus vulputate.
-        </p>
-        <div className="cta-container">
-          <span className="cta-text">Download App</span>
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/2318a132bd7d946524cfe41616d2fc0a828fc7d1fa43f91795d9eb8aa95fe33f?apiKey=7e91cb269c0144af96e9f3d2d5576b41&"
-            alt="App download icon"
-            className="cta-img"
-          />
-        </div>
-        </div>
-        <div>
-        <img
-        loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a771cbb-f5ff-4403-ad48-c056f5f96b65?apiKey=7e91cb269c0144af96e9f3d2d5576b41&"
-        className="image"
-        alt="Description of the image"
-      />
-        </div>
-      </div> */}
-
-
 
 
 
@@ -353,10 +324,9 @@ const testimonialsFrequently = [
             <p className="risus-habitant-leo">Risus Habitant Leo Egestas Mauris Diam Eget Morbi Tempus Vulputate.</p>
             <div className="div-wrapper">
               <div className="group-3">
-                {/* <img className="vector" alt="apple" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2318a132bd7d946524cfe41616d2fc0a828fc7d1fa43f91795d9eb8aa95fe33f?apiKey=7e91cb269c0144af96e9f3d2d5576b41&"/> */}
               
             <div className="download-app-wrapper">
-                  <div className="download-app">Download App <FaApple style={{marginLeft:"4px", marginTop:"2px"}} size={22}/></div>
+                  <div className="download-app">Download App <span style={{marginTop:"4px"}}><FaApple style={{marginLeft:"4px"}} size={25}/></span></div>
                 </div>
               </div>
             </div>
@@ -410,6 +380,8 @@ const testimonialsFrequently = [
 
 <Footer/>
     </div>
+    </>
+    
   );
 }
 
